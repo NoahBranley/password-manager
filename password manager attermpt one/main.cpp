@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 int i;
-string in0;
-int pin;
+string in0; //this is not actually my password or used pins! this is currently a proof of concept and helping me learn arrays!
 int stall;
 string websites[4] = { "github.com", "youtube.com", "twitch.tv", "google.com" };
 int main() {
