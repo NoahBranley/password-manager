@@ -73,4 +73,10 @@ int main() {
 			cin >> stall;
 		}
 	}			//google pass
+
+	else {
+		cout << "not a valid webiste....";
+		cin >> stall;
+	}
+
 }                    //main statement              
