@@ -8,7 +8,7 @@ string websites[4] = { "github.com", "youtube.com", "twitch.tv", "google.com" };
 int main() {
 										for (string i : websites) {
 										cout << i <<"\n";}
-										cout << "--------------\n>"; // basic ui stuff
+										cout << "--------------\n>"; // basic ui stuff balls
 										cin >> in0;
 	if (in0 == "github"){
 		system("cls");
