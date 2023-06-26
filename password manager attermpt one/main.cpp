@@ -11,7 +11,7 @@ int main() {
         {"twitch", "wzTG692&l&p@"},
         {"google", "@L&fyzI9s01p"}};
     while(1){
-    cout << "noahs password manager.... (^<>^).... \n";
+    cout<< "noahs password manager.... (^<>^)....\n";
     cout<< "--------------\n";
     for (string i : websites) {
     cout << i << "\n";}
@@ -29,6 +29,5 @@ int main() {
             string a; cin >> a;}
     else { cout << "ACCESS DENEID"; }}
     else { cout << "not a valid website.."; }
-    system("cls");
-}
+    system("cls");}
 }//main statement              
