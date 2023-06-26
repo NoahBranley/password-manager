@@ -20,14 +20,16 @@ int main() {
     cin >> input_1;
     int pin;
     if (input_map.contains(input_1)) {
-            system("cls");
-            cout << "enter pin...\n>";
-            cin >> pin;
+         system("cls");
+         cout << "enter pin...\n>";
+         cin >> pin;
     if (pin == 5555) {
-            system("cls");
-            cout << input_map.at(input_1);
-            string a; cin >> a;}
-    else { cout << "ACCESS DENEID"; }}
-    else { cout << "not a valid website.."; }
+         system("cls");
+         cout << input_map.at(input_1);
+         string a; cin >> a;}
+    else {cout << "ACCESS DENEID";
+          string a; cin >> a;}}
+    else {cout << "not a valid website..";
+         string a; cin >> a; }
     system("cls");}
 }//main statement              
