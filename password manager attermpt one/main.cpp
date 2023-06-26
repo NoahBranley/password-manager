@@ -3,13 +3,13 @@
 #include<map>
 #include<string>
 using namespace std;
-string websites[4] = { "github.com", "youtube.com", "twitch.tv", "google.com" };
+string websites[4] = { "[0] github.com", "[1] youtube.com", "[2] twitch.tv", "[3] google.com" };
 int main() {
     map<string, string> input_map{
-        {"github", "2$g3@!$$%@#FGH433"},
-        {"youtube","fgdkS@#$sdedj4789@d"},
-        {"twitch", "wzTG692&l&p@"},
-        {"google", "@L&fyzI9s01p"}};
+        {"0", "2$g3@!$$%@#FGH433"},
+        {"1","fgdkS@#$sdedj4789@d"},
+        {"2", "wzTG692&l&p@"},
+        {"3", "@L&fyzI9s01p"}};
     while(1){
     cout<< "noahs password manager.... (^<>^)....\n";
     cout<< "--------------\n";
