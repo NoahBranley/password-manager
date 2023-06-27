@@ -1,7 +1,7 @@
 //this is not actually my password or used pins! this is currently a proof of concept and helping me learn arrays!
 #include<iostream>
 #include<map>
-#include<string>
+#include<fstream>
 using namespace std;
 string websites[4] = { "[0] github.com", "[1] youtube.com", "[2] twitch.tv", "[3] google.com" };
 int main() {
@@ -25,11 +25,12 @@ int main() {
          cin >> pin;
     if (pin == 5555) {
          system("cls");
-         cout << input_map.at(input_1);
+         cout << "your password is:\n";
+         cout << input_map.at(input_1);;
          string a; cin >> a;}
-    else {cout << "ACCESS DENEID";
+    else {cout << "ACCESS DENIED";
           string a; cin >> a;}}
     else {cout << "not a valid website..";
          string a; cin >> a; }
     system("cls");}
-}//main statement              
+};//main statement              
